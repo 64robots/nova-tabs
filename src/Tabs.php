@@ -150,6 +150,16 @@ class Tabs extends Panel
     }
 
     /**
+     * Get access to tabs in the tabs list
+     *
+     * @return array
+     */
+    public function getTabs()
+    {
+        return $this->tabs;
+    }
+
+    /**
      * Prepare the given fields.
      *
      * @param  \Closure|array $fields
